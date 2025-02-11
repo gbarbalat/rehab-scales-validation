@@ -16,11 +16,13 @@ MSA helps evaluate whether the items form a unidimensional scale and meet assump
 - Monotonicity and IIO should show no significant violations.
 
 ### **2. Item Response Theory (IRT)**
-IRT allows to evaluate item discrimination, difficulty, and information. For Likert-scale items, the graded response model (GRM) is appropriate.
+IRT allows to evaluate item discrimination, difficulty, loadings, and reliability.
+- Model fit as per RMSEA,SRMSR, TLI, CFI ...
 - Items with moderate/good discrimination ($a > 0.7$) are informative.
 - Threshold ($d$) indicates item difficulty
-- Loadings and communality ($F$) for each factor 
+- Loadings ($F$) and communality ($h$) for each factor 
 - The test information curve shows where the scale is most precise.
+- Marginal and empirical reliability
   
 ### **3. Factor Analysis**
 Factor analysis helps confirm unidimensionality or identify latent dimensions in your data.
@@ -29,6 +31,5 @@ Factor analysis helps confirm unidimensionality or identify latent dimensions in
 
 ### **4. Classical Test Theory (CTT)**
 CTT evaluates reliability and total score validity.
-
 - Cronbach’s alpha $> 0.7$ indicates acceptable reliability.
 - High item-total correlations ($> 0.3$) suggest items contribute meaningfully to the total score.
