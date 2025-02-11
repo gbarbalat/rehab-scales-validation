@@ -5,18 +5,21 @@ To the best of our knowledge, these scales have mostly been validated in healthy
 
 The goal of this study is to confirm that these scales are appropriate for rehabilitation settings. We will assess their psychometric properties using **Mokken Scale Analysis (MSA)**, **Item Response Theory (IRT)**, **Factor Analysis**, and **Classical Test Theory (CTT)**.
 
----
+### **1. Check data**
+in particular: frequencies, bivariate correlations, outliers, and whether parametric assumptions hold
 
-### **1. Mokken Scale Analysis (MSA)**
+### **2. Mokken Scale Analysis (MSA)**
 MSA helps evaluate whether the items form a unidimensional scale and meet assumptions like monotonicity and invariant item ordering (IIO).  
+- identify idiosyncratic response patterns as per Guttman errors
 - Loevinger’s $H$: $H > 0.3$ indicates scalability; $H > 0.5$ suggests a strong scale.
+- automatic item selection algorithm: uni- or multi-dimensional scale.
 - Monotonicity and IIO should show no significant violations.
 
----
-
 ### **2. Item Response Theory (IRT)**
-IRT allows you to evaluate item discrimination, difficulty, and information. For Likert-scale items, the graded response model (GRM) is appropriate.
-- Items with good discrimination ($a > 0.7$) are informative.
+IRT allows to evaluate item discrimination, difficulty, and information. For Likert-scale items, the graded response model (GRM) is appropriate.
+- Items with moderate/good discrimination ($a > 0.7$) are informative.
+- Threshold ($d$) indicates item difficulty
+- Loadings and communality ($F$) for each factor 
 - The test information curve shows where the scale is most precise.
   
 ### **3. Factor Analysis**
