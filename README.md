@@ -8,38 +8,8 @@ The goal of this study is to confirm that these scales are appropriate for rehab
 ---
 
 ### **1. Mokken Scale Analysis (MSA)**
-MSA helps evaluate whether the items form a unidimensional scale and meet assumptions like monotonicity and invariant item ordering (IIO).
-
-#### R Code:
-```r
-# Install and load the mokken package
-install.packages("mokken")
-library(mokken)
-
-# Assuming your data is in a dataframe called `mydata`
-# Compute scalability coefficients
-H <- coefH(mydata)
-print(H)
-
-# Check monotonicity
-monotonicity <- check.monotonicity(mydata)
-summary(monotonicity)
-
-# Check local independence
-local_independence <- check.ca(mydata)
-summary(local_independence)
-
-# Check invariant item ordering (IIO)
-iio <- check.iio(mydata)
-summary(iio)
-
-# Automated Item Selection Procedure (AISP)
-scales <- aisp(mydata, lowerbound = 0.3)
-print(scales)
-```
-
-#### Interpretation:
-- Loevinger’s $$ H $$: $$ H > 0.3 $$ indicates scalability; $$ H > 0.5 $$ suggests a strong scale.
+MSA helps evaluate whether the items form a unidimensional scale and meet assumptions like monotonicity and invariant item ordering (IIO).  
+- Loevinger’s $H$: $ H > 0.3 $ indicates scalability; $$ H > 0.5 $$ suggests a strong scale.
 - Monotonicity and IIO should show no significant violations.
 
 ---
