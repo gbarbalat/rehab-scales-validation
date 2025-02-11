@@ -20,7 +20,7 @@ IRT allows to evaluate item discrimination, difficulty, loadings, and reliabilit
 - Model fit as per RMSEA, SRMSR, TLI, CFI. RMSEA ($< 0.05$), CFI ($> 0.95$), and TLI ($> 0.95$) indicate excellent model fit. RMSEA ($< 0.08$), CFI ($> 0.90$), and TLI ($> 0.90$) are acceptable.
 - Item fit, pval should be >0.05
 - Items with moderate/good discrimination ($a > 0.7$) are informative. High discrimination: $a > 0.1.35$.
-- Threshold ($d$) indicates item difficulty. Should go higher from one threshold to the next.
+- Threshold ($d$) indicates item difficulty. We expect consistent decrease in thresholds across items.
 - Loadings ($F$) and communality ($h$) for each factor. $>0.4$ acceptable; $>0.6$ good; average $>0.7$ ideal.
 - Marginal ($>0.7$) and empirical ($>0.8$) reliability.
   
