@@ -9,7 +9,7 @@ The goal of this study is to confirm that these scales are appropriate for rehab
 
 ### **1. Mokken Scale Analysis (MSA)**
 MSA helps evaluate whether the items form a unidimensional scale and meet assumptions like monotonicity and invariant item ordering (IIO).  
-- Loevinger’s $H$: $ H > 0.3 $ indicates scalability; $$ H > 0.5 $$ suggests a strong scale.
+- Loevinger’s $H$: $H > 0.3$ indicates scalability; $H > 0.5$ suggests a strong scale.
 - Monotonicity and IIO should show no significant violations.
 
 ---
