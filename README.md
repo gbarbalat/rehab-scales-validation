@@ -17,7 +17,8 @@ MSA helps evaluate whether the items form a unidimensional scale and meet assump
 
 ### **2. Item Response Theory (IRT)**
 IRT allows to evaluate item discrimination, difficulty, loadings, and reliability.
-- Model fit as per RMSEA,SRMSR, TLI, CFI ...
+- Model fit as per RMSEA, SRMSR, TLI, CFI
+- Item fit, pval should be >0.05
 - Items with moderate/good discrimination ($a > 0.7$) are informative.
 - Threshold ($d$) indicates item difficulty
 - Loadings ($F$) and communality ($h$) for each factor 
