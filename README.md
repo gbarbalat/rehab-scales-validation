@@ -15,7 +15,7 @@ MSA helps evaluate whether the items form a unidimensional scale and meet assump
 - automatic item selection algorithm: uni- or multi-dimensional scale.
 - Monotonicity and IIO should show no significant violations.
 
-### **2. Item Response Theory (IRT)**
+### **3. Item Response Theory (IRT)**
 IRT allows to evaluate item discrimination, difficulty, loadings, and reliability.
 - Model fit as per RMSEA, SRMSR, TLI, CFI. RMSEA ($< 0.05$), CFI ($> 0.95$), and TLI ($> 0.95$) indicate excellent model fit. RMSEA ($< 0.08$), CFI ($> 0.90$), and TLI ($> 0.90$) are acceptable.
 - Item fit, pval should be >0.05
@@ -24,13 +24,18 @@ IRT allows to evaluate item discrimination, difficulty, loadings, and reliabilit
 - Loadings ($F$) and communality ($h$) for each factor. $>0.4$ acceptable; $>0.6$ good; average $>0.7$ ideal.
 - Marginal ($>0.7$) and empirical ($>0.8$) reliability.
   
-### **3. Factor Analysis**
+### **4. Factor Analysis**
 Factor analysis helps confirm dimensionality or identify latent dimensions in the data.
 - For EFA: Factor loadings Poor: $<0.32$ ; Fair: $>0.45$ ; Good: $>0.55$ ; Very Good: $>0.63$ ; Excellent: $>0.71$ - communality acceptable $> 0.4$ - high $> 0.7$.
 - For CFA: Fit indices. Also look at loadings (estimate and pval: acceptable $>0.4$; strong $>0.6$; very strong $>0.7$), thresholds (going from one to the next), and variances.
 
-### **4. Classical Test Theory (CTT)**
+### **5. Classical Test Theory (CTT)**
 CTT evaluates reliability and total score validity.
 - Cronbach’s alpha $> 0.7$ indicates acceptable reliability; good $>0.8$; excellent $>0.9$.
 - McDonald's omega.
 - High item-total correlations ($> 0.3$) suggest items contribute meaningfully to the total score.
+
+### **6. Compare results with state of the art**
+Here, we'll investigate whether how the scale is utilized matches with our results.
+Any differences in a scale's structure will give rise to further analysis e.g. correlation between dimension scores 
+
