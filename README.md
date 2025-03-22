@@ -3,7 +3,7 @@
 Our network of rehabilitation centers across France uses 8 main questionnaires/scales: the BIS (insight), the WEMWBS (well-being), the ISMI (self-stigma), the STORI (recovery), the SQoL (quality of life), the SERS (self-esteem), the MARS (medication adherence), and the EAS (social autonomy). These scales are all self-questionaires except for the EAS which is a hetero-evaluation of a patient's autonomy.  
 To the best of our knowledge, these scales have mostly been validated in healthy controls and in patients with schizophrenia. Only the SQoL has been validated in patients with bipolar disorders. In addition, these scales have not been validated in rehabilitation settings.  
 
-The goal of this study is to confirm that these scales are appropriate for rehabilitation settings. We will assess their psychometric properties using **Mokken Scale Analysis (MSA)**, **Item Response Theory (IRT)**, **Factor Analysis**, and **Classical Test Theory (CTT)**.
+The goal of this study is to confirm that these scales are valid in rehabilitation settings. Following Dima et al., 2018, we will assess their psychometric properties using **Mokken Scale Analysis (MSA)**, **Item Response Theory (IRT)**, **Factor Analysis**, and **Classical Test Theory (CTT)**.
 
 ### **1. Check data**
 in particular: frequencies, bivariate correlations, outliers, and whether parametric assumptions hold
@@ -19,7 +19,7 @@ MSA helps evaluate whether the items form a unidimensional scale and meet assump
 IRT allows to evaluate item discrimination, difficulty, loadings, and reliability.
 - Model fit as per RMSEA, SRMSR, TLI, CFI. RMSEA ($< 0.05$), CFI ($> 0.95$), and TLI ($> 0.95$) indicate excellent model fit. RMSEA ($< 0.08$), CFI ($> 0.90$), and TLI ($> 0.90$) are acceptable.
 - Item fit, pval should be >0.05
-- Items with moderate/good discrimination ($a > 0.7$) are informative. High discrimination: $a > 0.1.35$.
+- Items with moderate/good discrimination ($a > 0.7$) are informative. High discrimination: $a > 1.35$.
 - Threshold ($d$) indicates item difficulty. We expect consistent decrease in thresholds across items.
 - Loadings ($F$) and communality ($h$) for each factor. $>0.4$ acceptable; $>0.6$ good; average $>0.7$ ideal.
 - Marginal ($>0.7$) and empirical ($>0.8$) reliability.
@@ -35,7 +35,5 @@ CTT evaluates reliability and total score validity.
 - McDonald's omega.
 - High item-total correlations ($> 0.3$) suggest items contribute meaningfully to the total score.
 
-### **6. Compare results with state of the art**
-Here, we'll investigate whether how the scale is utilized matches with our results.
-Any differences in a scale's structure will give rise to further analysis e.g. correlation between dimension scores 
-
+### **6. Additional analysis (if necessary)**
+If the scale is validated with a different structure than in previous studies, it would be prudent to conduct additional analyses. These could include: Investigating correlations between total scores of both versions (new and original); Examining correlations between subscores of the new version and the original version.
