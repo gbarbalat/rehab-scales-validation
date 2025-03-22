@@ -3,7 +3,7 @@
 Our network of rehabilitation centers across France uses 8 main questionnaires/scales: the BIS (insight), the WEMWBS (well-being), the ISMI (self-stigma), the STORI (recovery), the SQoL (quality of life), the SERS (self-esteem), the MARS (medication adherence), and the EAS (social autonomy). These scales are all self-questionaires except for the EAS which is a hetero-evaluation of a patient's autonomy.  
 To the best of our knowledge, these scales have mostly been validated in healthy controls and in patients with schizophrenia. Only the SQoL has been validated in patients with bipolar disorders. In addition, these scales have not been validated in rehabilitation settings.  
 
-The goal of this study is to confirm that these scales are valid in rehabilitation settings. Following Dima et al., 2018, we will assess their psychometric properties using **Mokken Scale Analysis (MSA)**, **Item Response Theory (IRT)**, **Factor Analysis**, and **Classical Test Theory (CTT)**.
+The goal of this study is to confirm that these scales are valid in rehabilitation settings. Following Dima et al., 2018, we will assess their psychometric properties in various psychiatric populations (SCZ, BAD, DEP, ANX, PD, NDD) using **Mokken Scale Analysis (MSA)**, **Item Response Theory (IRT)**, **Factor Analysis**, and **Classical Test Theory (CTT)**.
 
 ### **1. Check data**
 in particular: frequencies, bivariate correlations, outliers, and whether parametric assumptions hold
